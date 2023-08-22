@@ -187,11 +187,11 @@ section {
     font-family: var(--ff-DMSans);
 }
 .fs-lg{
-    font-size: clamp(1.2rem, 4vw, var(--fs-primary-heading))
+    font-size: clamp(1rem + 1vh, 4vw, var(--fs-primary-heading))
   
 }
 .fs-900{
-    font-size: clamp(1.3rem, 2vw, var(--fs-900))
+    font-size: clamp(1rem, 2vw, var(--fs-900))
   
 }
 .text-uppercase {
@@ -255,3 +255,4 @@ section {
         align-self: start;
     }
 }
+
