@@ -190,7 +190,7 @@ section {
 .HomesForSale-grid  img {
     width:  20vw;
   }
-  
+
 /* Utility classes */
 
 .ff-Baskerville {
@@ -282,6 +282,10 @@ section {
 }
 .gap-2{
     gap: min(3vh , 1.6rem);
+}
+
+.width-fit-content{
+   width: fit-content;
 }
 
 @media (min-width: 50em) {
