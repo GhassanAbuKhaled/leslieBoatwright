@@ -191,7 +191,7 @@ section {
   
 }
 .fs-900{
-    font-size: clamp(1.3rem, 3vw, var(--fs-900))
+    font-size: clamp(1.3rem, 2vw, var(--fs-900))
   
 }
 .text-uppercase {
@@ -246,7 +246,7 @@ section {
 }
 
 .gap-2{
-    gap: min(3vh , 1rem);
+    gap: min(3vh , 1.6rem);
 }
 
 @media (min-width: 50em) {
