@@ -3,6 +3,7 @@
 
     --braun: #453F35;
     --white: #fff;
+    --light:#F8F6F1;
     --ff-DMSans: 'DM Sans', sans-serif;
     --ff-Baskerville: 'Libre Baskerville', serif;
 
@@ -178,6 +179,15 @@ section {
     align-self: center;
     margin-top: 3vh;
 }
+
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 3vw;
+}
+
+
 /* Utility classes */
 
 .ff-Baskerville {
@@ -230,6 +240,9 @@ section {
     background-color: var(--white);
 }
 
+.light-background {
+    background-color: var(--light);
+}
 .align-items-center {
     align-items: center;
 }
@@ -238,6 +251,12 @@ section {
     justify-content: center;
 }
 
+.align-self-center{
+    align-self: center;
+}
+.justify-self-center{
+    justify-self: center;
+}
 .space-between {
     justify-content: space-between;
 }
