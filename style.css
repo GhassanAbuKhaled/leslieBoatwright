@@ -155,7 +155,7 @@ section {
 
 .button {
     all: unset;
-    width: min(260px, 100%);
+    width: min(240px, 80%);
     height: 50px;
     font-size: clamp(1rem, 4vw, var(--fs-500));
     background: transparent;
@@ -212,7 +212,7 @@ section {
 }
 
 .fs-700 {
-    font-size: clamp(1rem, 1.2vw, var(--fs-700))
+    font-size: clamp(.8rem, 2.4vw, var(--fs-700))
 }
 
 .fs-500 {
@@ -290,6 +290,7 @@ section {
 
 .p-width {
     width: clamp(200px, 70%, 90%);
+  
 }
 
 .gap-2 {
