@@ -188,7 +188,7 @@ section {
 }
 
 .HomesForSale-grid  img {
-    width: calc(300px + 8vw);
+    width:  20vw;
   }
   
 /* Utility classes */
