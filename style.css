@@ -8,6 +8,7 @@
 
     --fs-primary-heading: 5rem;
     --fs-900: 2rem;
+    --fs-700: 1.7rem;
     --fs-500: 1.5rem;
 
 
@@ -194,6 +195,10 @@ section {
     font-size: clamp(1rem, 2vw, var(--fs-900))
   
 }
+.fs-700{
+    font-size: clamp(1rem, 1.2vw, var(--fs-700))
+  
+}
 .text-uppercase {
     text-transform: uppercase;
 }
@@ -212,6 +217,9 @@ section {
 
 .braun-color {
     color: var(--braun);
+}
+.braun-background {
+    background-color: var(--braun);
 }
 
 .white-color {
@@ -245,6 +253,9 @@ section {
     padding: min(3rem, 3vh);
 }
 
+.p-width{
+    width: clamp(200px , 70% ,90%);
+}
 .gap-2{
     gap: min(3vh , 1.6rem);
 }
