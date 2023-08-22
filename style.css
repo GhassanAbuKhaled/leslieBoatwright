@@ -180,12 +180,9 @@ section {
     margin-top: 3vh;
 }
 
-
 .HomesForSale-grid {
     display: grid;
-
     grid-auto-rows: auto;
-    padding-inline: max(1vw, 1rem);
     gap: 6vh;
 }
 
@@ -266,6 +263,7 @@ section {
     justify-content: center;
 }
 
+
 .align-self-center {
     align-self: center;
 }
@@ -312,6 +310,7 @@ section {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         padding-inline: max(1vw, 1rem);
+    
     }
 
     .HomesForSale-grid img {
