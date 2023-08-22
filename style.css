@@ -1,0 +1,257 @@
+:root {
+
+
+    --braun: #453F35;
+    --white: #fff;
+    --ff-DMSans: 'DM Sans', sans-serif;
+    --ff-Baskerville: 'Libre Baskerville', serif;
+
+    --fs-primary-heading: 5rem;
+    --fs-900: 2rem;
+    --fs-500: 1.5rem;
+
+
+}
+
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Remove default margin */
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role="list"],
+ol[role="list"] {
+    list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+/* Set core body defaults */
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+}
+
+a {
+    text-decoration: none;
+    color: var(--clr-accent-100);
+}
+
+/* Make images easier to work with */
+img,
+picture,
+svg {
+    max-width: 100%;
+    display: block;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+    html:focus-within {
+        scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+
+/* general styling */
+
+body {
+    font-family: var(--ff-DMSans);
+    color: var(--background-white);
+    overflow-x: hidden;
+    transition: all .5s ease-out;
+}
+
+
+section {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+}
+
+
+/* styling first page*/
+.firstPageSection {
+    background: url('./assets/salon.png');
+    background-size: cover;
+}
+
+.firstPageSection video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    display: none;
+}
+
+@media (min-aspect-ratio:16/9) {
+    .firstPageSection video {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio:16/9) {
+    .firstPageSection video {
+        width: auto;
+        height: 100%;
+    }
+}
+
+@media (min-width: 930px) {
+    .firstPageSection video {
+        display: block;
+    }
+
+    .firstPageSection {
+        background: none;
+    }
+}
+
+.firstPageSection header {
+    width: 175px;
+}
+
+.logoContainer {
+    width: 2.3rem;
+    height: 2.3rem;
+    border-radius: 50%;
+
+}
+
+.logoContainer i {
+    font-size: 1rem;
+}
+
+.button {
+    all: unset;
+    width: min(260px, 100%);
+    height: 50px;
+    font-size: clamp(1rem, 4vw, var(--fs-500));
+    background: transparent;
+    border: .1rem solid var(--white);
+    position: relative;
+    color: #f0f0f0;
+    cursor: pointer;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    transition: all .1s ease-in-out
+}
+
+.button:hover{
+    transform: translate(5%, 20%);
+  
+  }
+
+.firstPageSection .button{
+    align-self: center;
+    margin-top: 3vh;
+}
+/* Utility classes */
+
+.ff-Baskerville {
+    font-family: var(--ff-Baskerville);
+}
+
+.ff-DMSans {
+    font-family: var(--ff-DMSans);
+}
+.fs-lg{
+    font-size: clamp(2rem, 6vw, var(--fs-primary-heading))
+  
+}
+.fs-900{
+    font-size: clamp(1.3rem, 3vw, var(--fs-900))
+  
+}
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-direction-column{
+    flex-direction: column;
+}
+
+.braun-color {
+    color: var(--braun);
+}
+
+.white-color {
+    color: var(--white);
+}
+
+.white-background {
+    background-color: var(--white);
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+.space-evenly {
+    justify-content: space-evenly;
+}
+
+.even-rows {
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    grid-auto-flow: row;
+    gap: min(2rem , 2%);
+    padding: 3rem;
+}
+
+.gap-2{
+    gap: 3vh;
+}
+
+@media (min-width: 50em) {
+ 
+  .firstPageSection  .button{
+        align-self: start;
+    }
+}
