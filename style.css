@@ -187,7 +187,7 @@ section {
     font-family: var(--ff-DMSans);
 }
 .fs-lg{
-    font-size: clamp(2rem, 6vw, var(--fs-primary-heading))
+    font-size: clamp(1.2rem, 6vw, var(--fs-primary-heading))
   
 }
 .fs-900{
