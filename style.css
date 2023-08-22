@@ -187,7 +187,10 @@ section {
     padding-inline: max(1vw,1rem);
 }
 
-
+.HomesForSale-grid  img {
+    width: calc(300px + 8vw);
+  }
+  
 /* Utility classes */
 
 .ff-Baskerville {
