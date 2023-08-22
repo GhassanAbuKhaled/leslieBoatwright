@@ -246,7 +246,7 @@ section {
 }
 
 .gap-2{
-    gap: 3vh;
+    gap: min(3vh , 1rem);
 }
 
 @media (min-width: 50em) {
