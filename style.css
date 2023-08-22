@@ -190,7 +190,7 @@ section {
     width: 50vw;
 }
 
-.VisitHouse img{
+.VisitHouse{
     height: min(60vh,660px);
 }
 .line{
