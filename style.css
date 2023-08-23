@@ -190,12 +190,18 @@ section {
     width: 50vw;
 }
 
-.VisitHouse img{
-    height: min(60vw,560px);
+.VisitHouse {
+    display: block;
 }
-.line{
+
+.VisitHouse img {
+    height: auto;
+    margin-bottom: min(3rem, 5vh);
+}
+
+.line {
     height: 1px;
-    width: min(30vw,200px);
+    width: min(30vw, 200px);
 }
 
 
@@ -244,6 +250,7 @@ section {
 .braun-color {
     color: var(--braun);
 }
+
 .braun-border {
     border: .1rem solid var(--braun);
 }
@@ -288,16 +295,19 @@ section {
 .space-evenly {
     justify-content: space-evenly;
 }
+
 .width-fit-content {
     width: fit-content;
 }
 
-.margin-block-2{
+.margin-block-2 {
     margin-block: 2rem;
 }
-.padding-inline-2{
+
+.padding-inline-2 {
     padding-inline: 2rem;
 }
+
 .even-rows {
     display: grid;
     grid-template-rows: 1fr 3fr;
@@ -308,15 +318,12 @@ section {
 
 .p-width {
     width: clamp(200px, 70%, 90%);
-  
+
 }
 
 .gap-2 {
     gap: min(3vh, 1.6rem);
 }
-
-
-
 
 @media (min-width: 50em) {
 
@@ -328,10 +335,21 @@ section {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         padding-inline: max(1vw, 1rem);
-    
+
     }
 
     .HomesForSale-grid img {
         width: 20vw;
+    }
+}
+
+@media (min-width: 60em) {
+
+    .VisitHouse {
+        display: flex;
+    }
+    .VisitHouse img {
+        height: min(60vw, 560px);
+        margin-bottom: 0;
     }
 }
