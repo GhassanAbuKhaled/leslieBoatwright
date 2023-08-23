@@ -195,8 +195,8 @@ section {
 }
 
 .VisitHouse img {
-    height: auto;
-    margin-bottom: min(3rem, 5vh);
+    height: min(60vw, 560px);
+    margin-bottom: min(3rem, 3vh);
 }
 
 .line {
