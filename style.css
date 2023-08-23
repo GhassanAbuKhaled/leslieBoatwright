@@ -106,7 +106,12 @@ section {
     background-size: cover;
 }
 
-.firstPageSection video {
+.fifthPageSection {
+    background: url('./assets/room.png');
+    background-size: cover;
+}
+
+video {
     position: absolute;
     right: 0;
     bottom: 0;
@@ -115,25 +120,26 @@ section {
 }
 
 @media (min-aspect-ratio:16/9) {
-    .firstPageSection video {
+    video {
         width: 100%;
         height: auto;
     }
 }
 
 @media (max-aspect-ratio:16/9) {
-    .firstPageSection video {
+    video {
         width: auto;
         height: 100%;
     }
 }
 
 @media (min-width: 930px) {
-    .firstPageSection video {
+    video {
         display: block;
     }
 
-    .firstPageSection {
+    .firstPageSection,
+    .fifthPageSection {
         background: none;
     }
 }
@@ -196,12 +202,14 @@ section {
 
 .VisitHouse img {
     height: auto;
-    padding:min(4rem, 5vh);
+    padding: min(4rem, 5vh);
 }
-.VisitHouseDesc{
-    padding:min(3rem, 3vh);
+
+.VisitHouseDesc {
+    padding: min(3rem, 3vh);
 
 }
+
 .line {
     height: 1px;
     width: min(30vw, 200px);
@@ -351,6 +359,7 @@ section {
     .VisitHouse {
         display: flex;
     }
+
     .VisitHouse img {
         height: min(85vh, 760px);
         margin-bottom: 0;
