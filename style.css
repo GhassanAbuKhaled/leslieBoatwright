@@ -239,6 +239,10 @@ video {
 .lastPage i{
     cursor: pointer;
 }
+
+.lastPage .button:hover{
+    transform: translate(1%, 10%);
+}
 /* Utility classes */
 
 .ff-Baskerville {
