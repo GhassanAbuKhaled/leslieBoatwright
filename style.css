@@ -185,7 +185,7 @@ video {
 }
 
 .button:hover {
-    transform: translate(5%, 20%);
+    transform: translate(1%, 10%);
 
 }
 
@@ -240,9 +240,6 @@ video {
     cursor: pointer;
 }
 
-.lastPage .button:hover{
-    transform: translate(1%, 10%);
-}
 /* Utility classes */
 
 .ff-Baskerville {
