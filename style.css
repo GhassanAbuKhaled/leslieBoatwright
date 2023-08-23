@@ -217,10 +217,13 @@ video {
     padding: min(3rem, 3vh);
 
 }
-
+.VisitHouseDesc p{
+    width: min(350px , 80vw)
+    
+}
 .line {
     height: 1px;
-    width: min(30vw, 200px);
+    width: 100%;
 }
 
 .lastPage {
