@@ -96,9 +96,17 @@ body {
 section {
     width: 100%;
     min-height: 100vh;
+    font-family: var(--ff-Baskerville);
+    color: var(--white);
     position: relative;
 }
 
+.myContainer{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
 
 /* styling first page*/
 .firstPageSection {
