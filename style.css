@@ -223,7 +223,22 @@ video {
     width: min(30vw, 200px);
 }
 
-
+.lastPage {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+.lastPage .pool{
+    background: url('./assets/Pool\ table.png');
+    background-size: cover;
+}
+.lastPage  .button{
+    width: min(240px, 80%);
+    height: 50px;
+    font-size: clamp(.5rem, 3vw, var(--fs-500));
+}
+.lastPage i{
+    cursor: pointer;
+}
 /* Utility classes */
 
 .ff-Baskerville {
@@ -302,7 +317,9 @@ video {
 .align-self-center {
     align-self: center;
 }
-
+.align-self-end{
+    align-self: flex-end;
+}
 .justify-self-center {
     justify-self: center;
 }
