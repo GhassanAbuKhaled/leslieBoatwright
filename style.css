@@ -352,7 +352,7 @@ section {
         display: flex;
     }
     .VisitHouse img {
-        height: min(60vw, 560px);
+        height: min(65vw, 660px);
         margin-bottom: 0;
     }
 }
