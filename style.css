@@ -195,10 +195,13 @@ section {
 }
 
 .VisitHouse img {
-    height: min(60vw, 560px);
-    margin-bottom: min(3rem, 3vh);
+    height: auto;
+    padding:min(4rem, 5vh);
 }
+.VisitHouseDesc{
+    padding:min(3rem, 3vh);
 
+}
 .line {
     height: 1px;
     width: min(30vw, 200px);
