@@ -12,9 +12,17 @@
     --fs-700: 1.7rem;
     --fs-500: 1.3rem;
 
+    --transitionTime: .2s;
+
 
 }
 
+@media (min-width:40em) {
+    :root {
+        --transitionTime: 1s;
+    }
+
+}
 
 /* Box sizing rules */
 *,
@@ -101,11 +109,11 @@ section {
     position: relative;
 }
 
-.myContainer{
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
+.myContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 /* styling first page*/
@@ -217,29 +225,33 @@ video {
     padding: min(3rem, 3vh);
 
 }
-.VisitHouseDesc p{
-    width: min(350px , 55vw)
-    
+
+.VisitHouseDesc p {
+    width: min(350px, 55vw)
 }
+
 .line {
     height: 1px;
     width: 100%;
 }
 
 .lastPage {
-   display: grid;
-   grid-template-columns: 1fr 1fr;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
-.lastPage .pool{
+
+.lastPage .pool {
     background: url('./assets/Pool\ table.png');
     background-size: cover;
 }
-.lastPage  .button{
+
+.lastPage .button {
     width: min(240px, 80%);
     height: 50px;
     font-size: clamp(.5rem, 3vw, var(--fs-500));
 }
-.lastPage i{
+
+.lastPage i {
     cursor: pointer;
 }
 
@@ -321,9 +333,11 @@ video {
 .align-self-center {
     align-self: center;
 }
-.align-self-end{
+
+.align-self-end {
     align-self: flex-end;
 }
+
 .justify-self-center {
     justify-self: center;
 }
@@ -398,13 +412,13 @@ video {
 
 /* animation styling */
 
-.toUp{
+.toUp {
 
     opacity: 0;
     filter: blur(5px);
     transform: translateY(8vh);
-    transition: all 1s;
-   
+    transition: all var(--transitionTime);
+
 }
 
 .show {
