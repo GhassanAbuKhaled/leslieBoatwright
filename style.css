@@ -222,6 +222,10 @@ video {
 
 }
 
+.VisitHouseDesc .HighlightServices {
+    width: min(350px, 55vw)
+}
+
 .line {
     height: 1px;
     width: 100%;
