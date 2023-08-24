@@ -12,14 +12,15 @@
     --fs-700: 1.7rem;
     --fs-500: 1.3rem;
 
-    --transitionTime: 0s;
+    --transitionTime: 1s;
+    --translateY: 0vh;
 
 
 }
 
 @media (min-width: 50em) {
     :root {
-        --transitionTime: 1s;
+        --translateY: 8vh;
     }
 
 }
@@ -416,7 +417,7 @@ video {
 
     opacity: 0;
     filter: blur(5px);
-    transform: translateY(8vh);
+    transform: translateY(var(--translateY));
     transition: all var(--transitionTime);
 
 }
