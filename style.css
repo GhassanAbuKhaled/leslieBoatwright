@@ -13,17 +13,12 @@
     --fs-500: 1.3rem;
 
     --transitionTime: 1s;
-    --translateY: 0vh;
 
 
-}
-
-@media (min-width: 50em) {
-    :root {
-        --translateY: 3vh;
-    }
 
 }
+
+
 
 /* Box sizing rules */
 *,
@@ -417,7 +412,6 @@ video {
 
     opacity: 0;
     filter: blur(5px);
-    transform: translateY(var(--translateY));
     transition: all var(--transitionTime);
 
 }
@@ -425,5 +419,5 @@ video {
 .show {
     opacity: 1;
     filter: blur(0);
-    transform: translateY(0);
+
 }
