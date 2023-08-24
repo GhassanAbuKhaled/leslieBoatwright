@@ -20,7 +20,7 @@
 
 @media (min-width: 50em) {
     :root {
-        --translateY: 8vh;
+        --translateY: 3vh;
     }
 
 }
