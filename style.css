@@ -17,7 +17,7 @@
 
 }
 
-@media (min-width:40em) {
+@media (min-width: 50em) {
     :root {
         --transitionTime: 1s;
     }
