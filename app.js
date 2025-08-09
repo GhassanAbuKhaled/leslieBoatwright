@@ -317,19 +317,22 @@ class PerformanceOptimizer {
         const videos = document.querySelectorAll('video');
         
         videos.forEach(video => {
-            // Pause video when not in viewport to save bandwidth
+            // Lazy load video when in viewport
             const videoObserver = new IntersectionObserver((entries) => {
                 entries.forEach(entry => {
                     if (entry.isIntersecting) {
+                        if (video.preload === 'none') {
+                            video.preload = 'metadata';
+                            video.load();
+                        }
                         video.play().catch(() => {
-                            // Handle autoplay restrictions
                             console.log('Video autoplay was prevented');
                         });
                     } else {
                         video.pause();
                     }
                 });
-            });
+            }, { threshold: 0.25 });
             
             videoObserver.observe(video);
         });
