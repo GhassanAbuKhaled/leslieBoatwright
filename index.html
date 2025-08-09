@@ -1,283 +1,395 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>leslie boatwright</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Libre+Baskerville:ital@0;1&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <!----------------------------------------------- First Page -------------------------------------------------->
-    <section class="firstPageSection even-rows">
-      <video autoplay loop muted plays-inline class="videoBack">
-        <source src="./assets/salon.mp4" type="video/mp4" />
-      </video>
-      <header>
-        <div class="d-flex space-between text-uppercase">
-          <div
-            class="logoContainer d-flex align-items-center justify-content-center white-background"
-          >
-            <i class="bi bi-house-door-fill braun-color"></i>
-          </div>
-          <div class="d-flex align-items-center">
-            <div>
-              <p>leslie</p>
-              <p>boatwright</p>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Leslie Boatwright - Professional Real Estate Agent in Sterriton. Buy and sell properties with ease and confidence.">
+    <title>Leslie Boatwright | Professional Real Estate Agent</title>
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="./assets/salon.mp4" as="video" type="video/mp4">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Modern fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <div class="logo-icon">
+                    <i class="bi bi-house-heart-fill"></i>
+                </div>
+                <div class="logo-text">
+                    <span class="logo-name">Leslie</span>
+                    <span class="logo-surname">Boatwright</span>
+                </div>
             </div>
-          </div>
-        </div>
-      </header>
-
-      <div class="d-flex flex-direction-column gap-2 ">
-        <h2 class="fs-900">Your go-to Sterriton real estate agent</h2>
-
-        <div class="toUp">
-        <h1 class="fs-lg ">
-          Want to buy or sell <br />
-          a home in Sterriton? <br />
-          I make it easy.
-        </h1>
-
-        <button class="button text-uppercase text-align-center ">
-          contact me
-        </button>
-      </div>
-      </div>
-    </section>
-    <!----------------------------------------------end of the I Page ------------------------------------------------->
-    <section class="myContainer braun-background">
-      <div
-        class="myContainer text-align-center gap-2 "
-        style="min-height: 100vh"
-      >
-        <p class="p-width fs-700 toUp">
-          Write a paragraph that talks about your real estate firm or your real
-          estate listings here. Convince your prospective clients to choose you
-          and your listings for their realty needs; whether they're to buy,
-          sell, or even rent. Just be sure to highlight what's unique about your
-          offerings to set yourselves apart from the competition.
-        </p>
-        <p class="p-width fs-700 toUp" style="margin-bottom: 2rem ">
-          Write a paragraph that talks about your real estate firm or your real
-          estate listings here. Convince your prospective clients to choose you
-          and your listings for their realty needs; whether they're to buy,
-          sell, or even rent. Just be sure to highlight what's unique about your
-          offerings to set yourselves apart from the competition.
-        </p>
-        <button class="button text-uppercase text-align-center toUp">
-          consult today
-        </button>
-      </div>
-    </section>
-    <!----------------------------------------------end of the II Page ------------------------------------------------->
-    <section class="myContainer light-background braun-color">
-      <h1 class="fs-lg text-uppercase text-align-center toUp" style="padding: 7vh">
-        Homes for Sale
-      </h1>
-
-      <div class="HomesForSale-grid">
-        <div
-          class="justify-self-center d-flex flex-direction-column gap-2 fs-500"
-        >
-          <img src="./assets/villa.png" alt="villa" />
-          <p class="text-uppercase width-fit-content white-background">
-            residential
-          </p>
-          <p class="text-uppercase">123 Anywhere St., Any City</p>
-          <p class="toUp">2 Beds | 2 Baths | 1 Car</p>
-        </div>
-
-        <div
-          class="justify-self-center d-flex flex-direction-column gap-2 fs-500"
-        >
-          <img
-            src="./assets/front of a house.png"
-            alt="front of a house"
-            class="justify-self-center"
-          />
-
-          <p class="text-uppercase white-background width-fit-content">
-            residential
-          </p>
-
-          <p class="text-uppercase">123 Anywhere St., Any City</p>
-          <p>Wheelchair accessible property</p>
-          <p class="toUp">2 Beds | 2 Baths | 1 Car</p>
-        </div>
-
-        <div
-          class="justify-self-center d-flex flex-direction-column gap-2 fs-500"
-        >
-          <img
-            src="./assets/villa2.png"
-            alt="villa"
-            class="justify-self-center"
-          />
-          <p class="text-uppercase white-background width-fit-content">
-            residential
-          </p>
-
-          <p class="text-uppercase">123 Anywhere St., Any City</p>
-          <p class="toUp">2 Beds | 2 Baths | 1 Car</p>
-        </div>
-      </div>
-    </section>
-    <!----------------------------------------------end of the III Page ------------------------------------------------->
-    <section class="myContainer light-background braun-color">
-      <div class="VisitHouse gap-2">
-        <img src="./assets/hous.png" alt="" class="padding-inline-2" />
-        <div class="VisitHouseDesc myContainer gap-2">
-          <h2 class="fs-900 toUp">Visit an open house</h2>
-          <span
-            class="line braun-background margin-block-2 padding-inline-2"
-          ></span>
-          <p class="text-align-center p-width HighlightServices">
-            Highlight specific services or products here. It can be a property
-            appraisal service, a consultation, or something uniquely yours. Give
-            it room to shine here.
-          </p>
-          <button
-            class="button braun-border margin-block-2 text-uppercase text-align-center braun-color toUp"
-          >
-            sign me up
-          </button>
-        </div>
-      </div>
-    </section>
-    <!----------------------------------------------end of the IV Page ------------------------------------------------->
-    <section class="fifthPageSection myContainer">
-      <video autoplay loop muted plays-inline class="videoBack">
-        <source src="./assets/room.mp4" type="video/mp4" />
-      </video>
-
-      <div class="myContainer gap-2">
-        <h1 class="fs-lg toUp">Explore a video tour</h1>
-        <p class="padding-inline-2 text-align-center fs-700">
-          Highlight specific services or products here. It can be a property
-          <br />
-          appraisal service, a consultation, or something uniquely yours. <br />
-          Give it room to shine here.
-        </p>
-        <button
-          class="button braun-border white-background margin-block-2 text-uppercase text-align-center braun-color toUp"
-        >
-          watch now
-        </button>
-      </div>
-    </section>
-    <!----------------------------------------------end of the V Page ------------------------------------------------->
-    <section class="myContainer braun-color light-background">
-      <div class="VisitHouse gap-2">
-        <div
-          class="VisitHouseDesc d-flex flex-direction-column align-self-center text-uppercase gap-2 fs-500"
-        >
-          <h1 class="fs-900 margin-block-2 toUp">Move from A to Z with my help.</h1>
-          <div class="d-flex">
-            <i class="bi bi-arrow-right padding-inline-2"></i>
-            <p>I know Sterriton like the back of my hand.</p>
-          </div>
-          <div class="d-flex">
-            <i class="bi bi-arrow-right padding-inline-2"></i>
-            <p>I am a top agent in the Sterriton area.</p>
-          </div>
-
-          <div class="d-flex">
-            <i class="bi bi-arrow-right padding-inline-2"></i>
-            <p>I help you with every aspect of the process.</p>
-          </div>
-          <div class="d-flex">
-            <i class="bi bi-arrow-right padding-inline-2"></i>
-            <p>I will make sure you get the best deal on a home.</p>
-          </div>
-        </div>
-
-        <img
-          src="./assets/book.png"
-          alt="a book on table"
-          class="toUp"
-          style="width: auto; height: auto"
-        />
-      </div>
-    </section>
-    <!----------------------------------------------end of the VI Page ------------------------------------------------->
-    <section class="lastPage">
-      <div class="d-flex flex-direction-column braun-background">
-        <header class="d-flex">
-          <div
-            class="d-flex space-between text-uppercase margin-block-2 padding-inline-2"
-          >
-            <div
-              class="logoContainer d-flex align-items-center justify-content-center white-background"
-              style="margin-right: 0.5rem"
-            >
-              <i class="bi bi-house-door-fill braun-color"></i>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#properties" class="nav-link">Properties</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#contact" class="nav-link">Contact</a>
             </div>
-            <div class="d-flex align-items-center">
-              <div>
-                <p>leslie</p>
-                <p>boatwright</p>
-              </div>
+            <div class="demo-badge">DEMO</div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
             </div>
-          </div>
-        </header>
-
-        <div
-          class="padding-inline-2 toUp d-flex flex-direction-column space-evenly"
-          style="height: 100%"
-        >
-          <div>
-            <button
-              class="button white-border braun-background margin-block-2 text-uppercase text-align-center white-color"
-            >
-              list your home
-            </button>
-            <button
-              class="button braun-border white-background text-uppercase text-align-center braun-color"
-            >
-              buy a home
-            </button>
-          </div>
-
-          <div>
-            <h1 class="text-uppercase fs-900">get in touch</h1>
-
-            <p class="margin-block-2">
-              Main Office <br />
-              123 Anywhere St. <br />
-              Any City, ST 12345
-            </p>
-
-            <a href="tel:+1234567890">Tel: (123) 456-7890 </a>
-            <br />
-            <a href="mailto:hello@reallygreatsite.com"
-              >Email: hello@reallygreatsite.com</a
-            >
-
-            <p>Social: @reallygreatsite</p>
-
-            <div class="margin-block-2 d-flex gap-2 fs-700">
-              <i class="bi bi-facebook"></i>
-              <i class="bi bi-twitter"></i>
-              <i class="bi bi-instagram"></i>
-            </div>
-          </div>
         </div>
-      </div>
+    </nav>
 
-      <div class="pool"></div>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-video">
+            <video autoplay muted loop playsinline>
+                <source src="./assets/salon.mp4" type="video/mp4">
+            </video>
+            <div class="hero-overlay"></div>
+        </div>
+        
+        <div class="hero-content">
+            <div class="hero-text animate-up">
+                <h1 class="hero-title">
+                    <span class="hero-subtitle">Your go-to Sterriton real estate agent</span>
+                    <span class="hero-main">Want to buy or sell a home in Sterriton?</span>
+                    <span class="hero-highlight">I make it easy.</span>
+                </h1>
+                <p class="hero-description">
+                    Extensive experience in the real estate market with exceptional personal service to ensure you get the best deal
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="scrollToSection('contact')">
+                        <i class="bi bi-telephone-fill"></i>
+                        Contact Me Now
+                    </button>
+                    <button class="btn btn-secondary" onclick="scrollToSection('properties')">
+                        <i class="bi bi-house-fill"></i>
+                        Browse Properties
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
     </section>
 
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header animate-up">
+                <h2 class="section-title">Why Choose Me?</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text animate-up">
+                    <p class="about-description">
+                        I provide comprehensive real estate services in the Sterriton area with years of experience. 
+                        I help my clients find the perfect home or sell their properties at the best prices.
+                    </p>
+                    <p class="about-description">
+                        My commitment to excellence and personal service ensures a smooth and comfortable experience for all my clients, 
+                        whether they're looking to buy, sell, or even rent.
+                    </p>
+                </div>
+                
+                <div class="features-grid">
+                    <div class="feature-card animate-up">
+                        <div class="feature-icon">
+                            <i class="bi bi-geo-alt-fill"></i>
+                        </div>
+                        <h3>Local Expertise</h3>
+                        <p>I know Sterriton like the back of my hand</p>
+                    </div>
+                    
+                    <div class="feature-card animate-up">
+                        <div class="feature-icon">
+                            <i class="bi bi-award-fill"></i>
+                        </div>
+                        <h3>Top Agent</h3>
+                        <p>I am a top agent in the Sterriton area</p>
+                    </div>
+                    
+                    <div class="feature-card animate-up">
+                        <div class="feature-icon">
+                            <i class="bi bi-people-fill"></i>
+                        </div>
+                        <h3>Full Service</h3>
+                        <p>I help you with every aspect of the process</p>
+                    </div>
+                    
+                    <div class="feature-card animate-up">
+                        <div class="feature-icon">
+                            <i class="bi bi-currency-dollar"></i>
+                        </div>
+                        <h3>Best Deals</h3>
+                        <p>I will make sure you get the best deal on a home</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Properties Section -->
+    <section id="properties" class="properties">
+        <div class="container">
+            <div class="section-header animate-up">
+                <h2 class="section-title">Homes for Sale</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">Discover a diverse selection of premium properties</p>
+            </div>
+            
+            <div class="properties-grid">
+                <div class="property-card animate-up">
+                    <div class="property-image">
+                        <img src="./assets/villa.png" alt="Residential Villa" loading="lazy">
+                        <div class="property-badge">Residential</div>
+                        <div class="property-overlay">
+                            <button class="btn btn-outline">View Details</button>
+                        </div>
+                    </div>
+                    <div class="property-content">
+                        <h3 class="property-title">123 Anywhere St., Any City</h3>
+                        <div class="property-features">
+                            <span><i class="bi bi-bed-fill"></i> 2 Beds</span>
+                            <span><i class="bi bi-droplet-fill"></i> 2 Baths</span>
+                            <span><i class="bi bi-car-front-fill"></i> 1 Car</span>
+                        </div>
+                        <div class="property-price">Price on inquiry</div>
+                    </div>
+                </div>
+                
+                <div class="property-card animate-up">
+                    <div class="property-image">
+                        <img src="./assets/front of a house.png" alt="Family Home" loading="lazy">
+                        <div class="property-badge">Residential</div>
+                        <div class="property-special">Wheelchair accessible property</div>
+                        <div class="property-overlay">
+                            <button class="btn btn-outline">View Details</button>
+                        </div>
+                    </div>
+                    <div class="property-content">
+                        <h3 class="property-title">123 Anywhere St., Any City</h3>
+                        <div class="property-features">
+                            <span><i class="bi bi-bed-fill"></i> 2 Beds</span>
+                            <span><i class="bi bi-droplet-fill"></i> 2 Baths</span>
+                            <span><i class="bi bi-car-front-fill"></i> 1 Car</span>
+                        </div>
+                        <div class="property-price">Price on inquiry</div>
+                    </div>
+                </div>
+                
+                <div class="property-card animate-up">
+                    <div class="property-image">
+                        <img src="./assets/villa2.png" alt="Modern Villa" loading="lazy">
+                        <div class="property-badge">Residential</div>
+                        <div class="property-overlay">
+                            <button class="btn btn-outline">View Details</button>
+                        </div>
+                    </div>
+                    <div class="property-content">
+                        <h3 class="property-title">123 Anywhere St., Any City</h3>
+                        <div class="property-features">
+                            <span><i class="bi bi-bed-fill"></i> 2 Beds</span>
+                            <span><i class="bi bi-droplet-fill"></i> 2 Baths</span>
+                            <span><i class="bi bi-car-front-fill"></i> 1 Car</span>
+                        </div>
+                        <div class="property-price">Price on inquiry</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="services-content">
+                <div class="services-image animate-up">
+                    <img src="./assets/hous.png" alt="Real Estate Services" loading="lazy">
+                </div>
+                
+                <div class="services-text animate-up">
+                    <h2 class="services-title">Visit an Open House</h2>
+                    <div class="section-divider"></div>
+                    <p class="services-description">
+                        Schedule an appointment to visit available properties and explore your options freely. 
+                        I provide customized tours that help you make the right decision.
+                    </p>
+                    <ul class="services-list">
+                        <li><i class="bi bi-check-circle-fill"></i> Customized tours based on your needs</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Free consultation during the visit</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Instant property evaluation</li>
+                    </ul>
+                    <button class="btn btn-primary">
+                        <i class="bi bi-calendar-check"></i>
+                        Sign Me Up
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Tour Section -->
+    <section class="video-tour">
+        <div class="video-background">
+            <video autoplay muted loop playsinline>
+                <source src="./assets/room.mp4" type="video/mp4">
+            </video>
+            <div class="video-overlay"></div>
+        </div>
+        
+        <div class="container">
+            <div class="video-content animate-up">
+                <h2 class="video-title">Explore a Video Tour</h2>
+                <p class="video-description">
+                    Watch properties from your home with high-quality video tours that show every detail
+                    <br>
+                    and get a clear idea before the actual visit
+                </p>
+                <button class="btn btn-outline-white">
+                    <i class="bi bi-play-circle-fill"></i>
+                    Watch Now
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Me Section -->
+    <section class="why-choose">
+        <div class="container">
+            <div class="why-choose-content">
+                <div class="why-choose-text animate-up">
+                    <h2 class="why-choose-title">Move from A to Z with my help.</h2>
+                    
+                    <div class="benefits-list">
+                        <div class="benefit-item">
+                            <div class="benefit-icon">
+                                <i class="bi bi-arrow-right"></i>
+                            </div>
+                            <p>I know Sterriton like the back of my hand.</p>
+                        </div>
+                        
+                        <div class="benefit-item">
+                            <div class="benefit-icon">
+                                <i class="bi bi-arrow-right"></i>
+                            </div>
+                            <p>I am a top agent in the Sterriton area.</p>
+                        </div>
+                        
+                        <div class="benefit-item">
+                            <div class="benefit-icon">
+                                <i class="bi bi-arrow-right"></i>
+                            </div>
+                            <p>I help you with every aspect of the process.</p>
+                        </div>
+                        
+                        <div class="benefit-item">
+                            <div class="benefit-icon">
+                                <i class="bi bi-arrow-right"></i>
+                            </div>
+                            <p>I will make sure you get the best deal on a home.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="why-choose-image animate-up">
+                    <img src="./assets/book.png" alt="Experience and Consultation" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="contact-split">
+            <div class="contact-info">
+                <div class="contact-content">
+                    <div class="contact-logo">
+                        <div class="logo-icon">
+                            <i class="bi bi-house-heart-fill"></i>
+                        </div>
+                        <div class="logo-text">
+                            <span class="logo-name">Leslie</span>
+                            <span class="logo-surname">Boatwright</span>
+                        </div>
+                    </div>
+                    
+                    <h2 class="contact-title">Contact Me Today</h2>
+                    <p class="contact-description">
+                        Ready to help you on your real estate journey. Contact me for a free consultation
+                    </p>
+                    
+                    <div class="contact-methods">
+                        <a href="tel:+15551234567" class="contact-method">
+                            <i class="bi bi-telephone-fill"></i>
+                            <div>
+                                <h4>Call Me</h4>
+                                <p>+1 (555) 123-4567</p>
+                            </div>
+                        </a>
+                        
+                        <a href="mailto:leslie@realestate.com" class="contact-method">
+                            <i class="bi bi-envelope-fill"></i>
+                            <div>
+                                <h4>Email Me</h4>
+                                <p>leslie@realestate.com</p>
+                            </div>
+                        </a>
+                        
+                        <a href="https://maps.google.com/?q=123+Main+St,+Sterriton" target="_blank" class="contact-method">
+                            <i class="bi bi-geo-alt-fill"></i>
+                            <div>
+                                <h4>Visit Me</h4>
+                                <p>123 Main St, Sterriton</p>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="bi bi-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="bi bi-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="contact-image">
+                <img src="./assets/Pool table.png" alt="Real Estate Office" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Leslie Boatwright. All rights reserved.</p>
+                <p>Developed with the latest technologies for an exceptional user experience</p>
+            </div>
+        </div>
+        <div class="demo-notice">
+            <div class="container">
+                <p>This is a demo portfolio created for learning purposes</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
     <script src="app.js"></script>
-  </body>
+</body>
 </html>
